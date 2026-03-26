@@ -5,7 +5,7 @@
 - Branch name: `main`
 - Tag name: `v1.0-ppsn2026`
 - Initial release creation timestamp: `2026-03-26T13:27:11.1760646+07:00`
-- Current tag state: GitHub-only public snapshot with Zenodo/DOI placeholders removed from the paper-facing docs
+- Current tag state: GitHub-only public snapshot with external-archive placeholders removed from the paper-facing docs
 
 ## Published contents
 
