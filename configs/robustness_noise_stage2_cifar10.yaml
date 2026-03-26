@@ -1,0 +1,31 @@
+dataset:
+  name: cifar10
+
+runtime:
+  save_windows: false
+
+study:
+  name: robustness_noise_stage2_cifar10
+
+seeds: [0, 1, 2]
+query_rates: [0.0, 0.001, 0.005, 0.01, 0.02, 0.05, 0.1]
+corruptions:
+  - shot_noise
+  - impulse_noise
+  - defocus_blur
+  - glass_blur
+  - zoom_blur
+  - snow
+  - fog
+  - contrast
+  - elastic_transform
+  - pixelate
+severities: [3]
+contamination_ratios: [0.0, 0.1, 0.2, 0.3, 0.5]
+total_length: 10000
+
+robustness:
+  axis: feedback_noise
+  values: [0.0, 0.05, 0.1, 0.2]
+  fixed_feedback_delay_windows: 0
+  reuse_reference_raw: results/raw/contamination_stage2_final_cifar10/contamination_runs.csv

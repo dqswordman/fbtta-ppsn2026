@@ -1,0 +1,14 @@
+dataset:
+  name: cifar100
+
+paths:
+  source_checkpoint_pattern: artifacts/source_model_cifar100_smoke/seed{seed}/best.pt
+
+study:
+  name: frontier_cifar100_smoke
+
+seeds: [0]
+query_rates: [0.0, 0.01]
+method_names: [frozen, tent, fb_gate_tent]
+corruptions: [gaussian_noise]
+severities: [3]

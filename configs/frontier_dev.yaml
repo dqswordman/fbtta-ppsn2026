@@ -1,0 +1,13 @@
+study:
+  name: frontier_dev
+
+seeds: [0]
+query_rates: [0.0, 0.005, 0.01, 0.02]
+method_names: [frozen, tent, fb_gate_tent, full_label_active]
+corruptions:
+  - gaussian_noise
+  - motion_blur
+  - brightness
+  - frost
+  - jpeg_compression
+severities: [3]

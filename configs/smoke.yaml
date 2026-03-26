@@ -1,0 +1,22 @@
+study:
+  name: smoke
+
+seeds: [0]
+query_rates: [0.0, 0.01]
+methods: [frozen, tent, fb_gate_tent, full_label_active]
+
+synthetic:
+  n_samples: 800
+  feature_shift: 0.55
+  noise_std: 0.9
+  candidate_step: 0.8
+  feedback_noise_values: [0.0]
+
+frontier:
+  corruptions: [gaussian_noise]
+  severities: [3]
+
+contamination:
+  corruptions: [gaussian_noise]
+  severities: [3]
+  contamination_ratios: [0.2]

@@ -1,0 +1,25 @@
+study:
+  name: frontier_stage2_dev
+
+seeds: [0]
+query_rates: [0.0, 0.01]
+method_names:
+  [
+    frozen,
+    tent,
+    fb_gate_tent,
+    self_gate_tent_zero_bit,
+    throttle_tent_zero_bit,
+    sar_or_come_zero_bit_stable,
+    full_label_active_reference,
+    atta_or_simatta_style_active,
+    bitta_style_binary_feedback,
+    eatta_style_low_label,
+  ]
+corruptions:
+  - gaussian_noise
+  - motion_blur
+  - brightness
+  - frost
+  - jpeg_compression
+severities: [3]

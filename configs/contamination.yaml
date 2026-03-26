@@ -1,0 +1,20 @@
+study:
+  name: contamination_final
+
+seeds: [0, 1, 2]
+query_rates: [0.0, 0.001, 0.005, 0.01, 0.02, 0.05, 0.1]
+method_names: [frozen, tent, fb_gate_tent]
+corruptions:
+  - shot_noise
+  - impulse_noise
+  - defocus_blur
+  - glass_blur
+  - zoom_blur
+  - snow
+  - fog
+  - contrast
+  - elastic_transform
+  - pixelate
+severities: [3]
+contamination_ratios: [0.0, 0.1, 0.2, 0.3, 0.5]
+total_length: 10000

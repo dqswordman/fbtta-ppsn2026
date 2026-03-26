@@ -1,0 +1,33 @@
+dataset:
+  name: cifar10
+
+study:
+  name: frontier_stage2_final_cifar10
+
+seeds: [0, 1, 2]
+query_rates: [0.0, 0.001, 0.005, 0.01, 0.02, 0.05, 0.1]
+method_names:
+  [
+    frozen,
+    tent,
+    fb_gate_tent,
+    self_gate_tent_zero_bit,
+    throttle_tent_zero_bit,
+    sar_or_come_zero_bit_stable,
+    full_label_active_reference,
+    atta_or_simatta_style_active,
+    bitta_style_binary_feedback,
+    eatta_style_low_label,
+  ]
+corruptions:
+  - shot_noise
+  - impulse_noise
+  - defocus_blur
+  - glass_blur
+  - zoom_blur
+  - snow
+  - fog
+  - contrast
+  - elastic_transform
+  - pixelate
+severities: [3, 5]

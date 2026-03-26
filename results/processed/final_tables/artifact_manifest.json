@@ -1,0 +1,16 @@
+{
+  "tables": {
+    "frontier_primary_table": "results\\processed\\final_tables\\frontier_primary_table.tex",
+    "contamination_primary_table": "results\\processed\\final_tables\\contamination_primary_table.tex",
+    "generalization_table": "results\\processed\\final_tables\\generalization_table.tex",
+    "robustness_primary_table": "results\\processed\\final_tables\\robustness_primary_table.tex",
+    "compute_reproducibility_table": "results\\processed\\final_tables\\compute_reproducibility_table.tex"
+  },
+  "figures": {
+    "synthetic_separation_final": "figures\\final\\synthetic_separation_final.pdf",
+    "cifar10_frontier_final": "figures\\final\\cifar10_frontier_final.pdf",
+    "contamination_phase_heatmap_final": "figures\\final\\contamination_phase_heatmap_final.pdf",
+    "matched_conservatism_final": "figures\\final\\matched_conservatism_final.pdf",
+    "robustness_noise_delay_final": "figures\\final\\robustness_noise_delay_final.pdf"
+  }
+}

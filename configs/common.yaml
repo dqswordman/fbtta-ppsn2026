@@ -1,0 +1,91 @@
+paths:
+  data_root: data
+  results_raw: results/raw
+  results_processed: results/processed
+  figures_root: figures
+  source_checkpoint_pattern: artifacts/source_model/seed{seed}/best.pt
+
+runtime:
+  device: cuda
+  window_size: 1024
+  microbatch_size: 256
+
+methods:
+  frozen: {}
+  tent:
+    lr: 0.0005
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+  fb_gate_tent:
+    lr: 0.0005
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    gate_threshold: 0.05
+    gate_criterion: delta_mean
+    query_strategy: entropy
+    rollback: true
+    rollback_patience: 2
+    feedback_noise: 0.0
+  full_label_active:
+    lr: 0.001
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    query_strategy: entropy
+  full_label_active_reference:
+    lr: 0.001
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    query_strategy: entropy
+  atta_or_simatta_style_active:
+    lr: 0.001
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    query_strategy: entropy
+    memory_size: 2048
+  bitta_style_binary_feedback:
+    lr: 0.0005
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    query_strategy: entropy
+    memory_size: 2048
+    feedback_noise: 0.0
+    negative_weight: 0.5
+  eatta_style_low_label:
+    lr: 0.0005
+    steps: 1
+    supervised_steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    query_strategy: entropy
+    e_margin: 1.5
+    d_margin: 0.05
+  sar_or_come_zero_bit_stable:
+    lr: 0.0005
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    prior_strength: 1000.0
+  self_gate_tent_zero_bit:
+    lr: 0.0005
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    query_strategy: entropy
+    self_gate_proxy: confidence
+    gate_threshold: 0.04
+    rollback: true
+    rollback_patience: 2
+  throttle_tent_zero_bit:
+    lr: 0.0005
+    steps: 1
+    weight_decay: 0.0
+    microbatch_size: 256
+    query_strategy: entropy
+    throttle_metric: entropy
+    entropy_threshold: 1.635

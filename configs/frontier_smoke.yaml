@@ -1,0 +1,8 @@
+study:
+  name: frontier_smoke
+
+seeds: [0]
+query_rates: [0.0, 0.01]
+method_names: [frozen, tent, fb_gate_tent]
+corruptions: [gaussian_noise]
+severities: [3]

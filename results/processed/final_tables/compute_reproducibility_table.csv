@@ -1,0 +1,10 @@
+study,num_runs,runtime_sec_mean,peak_memory_mb_mean,raw_path
+C10 frontier final,4200,1.0392861176104773,1200.8439769345239,results/raw/frontier_stage2_final_cifar10/frontier_runs.csv
+C10 contamination final,10500,1.1802696448734828,1196.4402259579613,results/raw/contamination_stage2_final_cifar10/contamination_runs.csv
+C100 frontier final,4200,0.9745611267998106,1236.8118389601934,results/raw/frontier_stage2_final_cifar100/frontier_runs.csv
+C100 contamination final,10500,0.9851007836205619,1229.6673956008185,results/raw/contamination_stage2_final_cifar100/contamination_runs.csv
+C10 robustness noise,8400,1.016742095464752,1086.4898609561012,results/raw/robustness_noise_stage2_cifar10/robustness_runs.csv
+C10 robustness delay,6300,0.9283995423998151,1086.4805305989582,results/raw/robustness_delay_stage2_cifar10/robustness_runs.csv
+C100 robustness noise,8400,0.9279053223416919,1087.1453669084822,results/raw/robustness_noise_stage2_cifar100/robustness_runs.csv
+C100 robustness delay,6300,0.8245548652088831,1087.1539730592758,results/raw/robustness_delay_stage2_cifar100/robustness_runs.csv
+Source train cifar100,3,173.76534795761108,1372.78173828125,results/raw/source_train/cifar100

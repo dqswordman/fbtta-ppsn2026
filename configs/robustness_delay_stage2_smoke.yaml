@@ -1,0 +1,23 @@
+dataset:
+  name: cifar10
+
+runtime:
+  save_windows: false
+  window_size: 512
+  microbatch_size: 256
+
+study:
+  name: robustness_delay_stage2_smoke
+
+seeds: [0]
+query_rates: [0.0, 0.01]
+corruptions: [gaussian_noise]
+severities: [3]
+contamination_ratios: [0.2]
+total_length: 2048
+
+robustness:
+  axis: feedback_delay_windows
+  values: [0, 1]
+  fixed_feedback_noise: 0.0
+  reuse_reference_raw: results/raw/contamination_smoke/contamination_runs.csv

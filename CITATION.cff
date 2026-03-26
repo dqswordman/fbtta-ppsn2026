@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this PPSN 2026 submission snapshot, please cite the repository metadata and the associated paper."
+title: "Conservative Test-Time Adaptation under Open-World Contamination via Binary Correctness Feedback"
+version: "v1.0-ppsn2026"
+type: software
+authors:
+  - family-names: "Du"
+    given-names: "Wenzhang"
+    email: "dqswordman@gmail.com"
+    affiliation: "Mahanakorn University of Technology International College (MUTIC)"
+abstract: "Public code-and-artifact snapshot for a PPSN 2026 submission studying binary correctness feedback as a conservative external veto for streaming test-time adaptation under contamination."
+keywords:
+  - test-time adaptation
+  - contamination
+  - binary correctness feedback
+  - online adaptation
+  - conservative learning
+license: "MIT"
+repository-code: "<REPO_URL>"
+url: "<RELEASE_URL>"

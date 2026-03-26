@@ -1,0 +1,17 @@
+name: fbtta-ppsn2026
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - pillow
+  - tqdm
+  - pytorch
+  - torchvision
+  - pip

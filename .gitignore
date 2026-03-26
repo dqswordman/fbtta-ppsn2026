@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data and caches
+data/
+results/raw/
+artifacts/
+checkpoints/
+logs/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Test / coverage
+.coverage
+.pytest_cache/
+
+# Notebook checkpoints
+.ipynb_checkpoints/

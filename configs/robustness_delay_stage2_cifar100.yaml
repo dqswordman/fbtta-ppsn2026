@@ -1,0 +1,34 @@
+dataset:
+  name: cifar100
+
+paths:
+  source_checkpoint_pattern: artifacts/source_model_cifar100/seed{seed}/best.pt
+
+runtime:
+  save_windows: false
+
+study:
+  name: robustness_delay_stage2_cifar100
+
+seeds: [0, 1, 2]
+query_rates: [0.0, 0.001, 0.005, 0.01, 0.02, 0.05, 0.1]
+corruptions:
+  - shot_noise
+  - impulse_noise
+  - defocus_blur
+  - glass_blur
+  - zoom_blur
+  - snow
+  - fog
+  - contrast
+  - elastic_transform
+  - pixelate
+severities: [3]
+contamination_ratios: [0.0, 0.1, 0.2, 0.3, 0.5]
+total_length: 10000
+
+robustness:
+  axis: feedback_delay_windows
+  values: [0, 1, 5]
+  fixed_feedback_noise: 0.0
+  reuse_reference_raw: results/raw/contamination_stage2_final_cifar100/contamination_runs.csv

@@ -1,0 +1,13 @@
+study:
+  name: synthetic_main
+
+seeds: [0, 1, 2, 3, 4]
+query_rates: [0.0, 0.001, 0.005, 0.01, 0.02, 0.05, 0.1]
+env_signs: [1, -1]
+
+synthetic:
+  n_samples: 4000
+  feature_shift: 0.55
+  noise_std: 0.9
+  candidate_step: 0.8
+  feedback_noise_values: [0.0, 0.05, 0.1]

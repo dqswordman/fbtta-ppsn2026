@@ -1,0 +1,13 @@
+study:
+  name: synthetic_smoke
+
+seeds: [0]
+query_rates: [0.0, 0.01]
+env_signs: [1, -1]
+
+synthetic:
+  n_samples: 800
+  feature_shift: 0.55
+  noise_std: 0.9
+  candidate_step: 0.8
+  feedback_noise_values: [0.0]
