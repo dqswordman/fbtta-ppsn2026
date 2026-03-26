@@ -32,11 +32,11 @@ data/
   - the training and test sets can also be prepared through `torchvision`, but this release does not auto-download them for you
 
 - CIFAR-10-C:
-  - official release page: https://zenodo.org/records/2535967
+  - official reference: the Hendrycks--Dietterich corruption benchmark release associated with https://github.com/hendrycks/robustness
   - expected contents: extracted corruption `.npy` files and `labels.npy`
 
 - CIFAR-100-C:
-  - official release page: https://zenodo.org/records/3555552
+  - official reference: the Hendrycks--Dietterich corruption benchmark release associated with https://github.com/hendrycks/robustness
   - expected contents: extracted corruption `.npy` files and `labels.npy`
 
 - SVHN:

@@ -10,6 +10,6 @@ Use the following sentences in the PPSN paper once the public URLs are available
 
 `The versioned public release used for this submission snapshot is available at https://github.com/dqswordman/fbtta-ppsn2026/releases/tag/v1.0-ppsn2026.`
 
-## Future supplement DOI placeholder
+## GitHub-hosted supplement sentence
 
-`An archived online supplement with the submission snapshot materials is available at <SUPPLEMENT_DOI_OR_URL>.`
+`Code, processed summaries, and the online supplement PDF for this submission snapshot are available in the public GitHub repository: https://github.com/dqswordman/fbtta-ppsn2026.`

@@ -127,9 +127,4 @@ If you use this snapshot, please cite the paper and the repository release metad
 - License: `MIT`
 - Public repository URL: `https://github.com/dqswordman/fbtta-ppsn2026`
 - Release URL: `https://github.com/dqswordman/fbtta-ppsn2026/releases/tag/v1.0-ppsn2026`
-
-## Supplement DOI Placeholder
-
-Once the supplement is archived, insert the DOI or persistent URL here and into the paper:
-
-- Supplement DOI / URL: `<SUPPLEMENT_DOI_OR_URL>`
+- Supplement PDF location: `paper/ppsn_online_supplement_v2.pdf`

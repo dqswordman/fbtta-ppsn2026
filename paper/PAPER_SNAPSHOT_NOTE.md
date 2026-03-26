@@ -7,6 +7,7 @@ This `paper/` directory contains the public PPSN 2026 submission snapshot PDFs a
 
 These PDFs are included for reading and citation convenience.
 The public code snapshot supports the methods, processed paper-facing summaries, and release documentation associated with these PDFs.
+The supplement is distributed directly through the public GitHub repository and tagged release; no separate external archive is referenced in this snapshot.
 
 This release does not imply a broader scientific claim than the paper itself.
 In particular, it does not claim universal superiority of binary feedback on stationary corruption benchmarks.

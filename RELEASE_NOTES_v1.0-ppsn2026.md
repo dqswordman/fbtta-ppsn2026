@@ -44,4 +44,4 @@ This release snapshot does **not** claim:
 
 - Public repository name: `fbtta-ppsn2026`
 - License: `MIT`
-- Supplement DOI placeholder: `<SUPPLEMENT_DOI_OR_URL>`
+- Supplement PDF location in the repository: `paper/ppsn_online_supplement_v2.pdf`
