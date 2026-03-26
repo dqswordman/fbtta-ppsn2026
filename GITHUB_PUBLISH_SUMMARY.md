@@ -4,8 +4,8 @@
 - Release URL: `https://github.com/dqswordman/fbtta-ppsn2026/releases/tag/v1.0-ppsn2026`
 - Branch name: `main`
 - Tag name: `v1.0-ppsn2026`
-- Timestamp: `2026-03-26T13:27:11.1760646+07:00`
-- Release commit at creation: `bbbd4acc91349c8249ca3eddd3a89ec68865737b`
+- Initial release creation timestamp: `2026-03-26T13:27:11.1760646+07:00`
+- Current tag state: GitHub-only public snapshot with Zenodo/DOI placeholders removed from the paper-facing docs
 
 ## Published contents
 
