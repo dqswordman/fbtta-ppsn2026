@@ -12,4 +12,4 @@ Use the following sentences in the PPSN paper once the public URLs are available
 
 ## GitHub-hosted supplement sentence
 
-`Code, processed summaries, and the online supplement PDF for this submission snapshot are available in the public GitHub repository: https://github.com/dqswordman/fbtta-ppsn2026.`
+`Code, processed summaries, and supplementary materials are available in the public repository: https://github.com/dqswordman/fbtta-ppsn2026.`
