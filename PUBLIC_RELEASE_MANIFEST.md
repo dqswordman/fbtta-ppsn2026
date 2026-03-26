@@ -48,7 +48,7 @@
 - secrets, local environment files, and machine-specific paths
   - reason: security and cleanliness
 
-## Current blockers before publication
+## Publication status
 
-- GitHub publishing is blocked until GitHub CLI is installed or available on `PATH`.
-- GitHub publishing also requires an authenticated `gh` session for account-side repository creation.
+- Public repository created: `https://github.com/dqswordman/fbtta-ppsn2026`
+- Release created: `https://github.com/dqswordman/fbtta-ppsn2026/releases/tag/v1.0-ppsn2026`

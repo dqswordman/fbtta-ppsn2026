@@ -24,10 +24,10 @@ The `github_release/` tree was scanned for:
 - No checkpoints were found.
 - No executables or DLLs were found.
 
-## Remaining publication blockers
+## Publication status
 
-- GitHub publishing cannot proceed yet because GitHub CLI is not installed or not on `PATH`.
-- Public repository creation also requires an authenticated GitHub CLI session.
+- GitHub repository published: `https://github.com/dqswordman/fbtta-ppsn2026`
+- GitHub release published: `https://github.com/dqswordman/fbtta-ppsn2026/releases/tag/v1.0-ppsn2026`
 
 ## Result
 

@@ -125,6 +125,8 @@ If you use this snapshot, please cite the paper and the repository release metad
 - Intended public tag: `v1.0-ppsn2026`
 - Public repository name: `fbtta-ppsn2026`
 - License: `MIT`
+- Public repository URL: `https://github.com/dqswordman/fbtta-ppsn2026`
+- Release URL: `https://github.com/dqswordman/fbtta-ppsn2026/releases/tag/v1.0-ppsn2026`
 
 ## Supplement DOI Placeholder
 

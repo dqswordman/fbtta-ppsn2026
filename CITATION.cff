@@ -16,5 +16,5 @@ keywords:
   - online adaptation
   - conservative learning
 license: "MIT"
-repository-code: "<REPO_URL>"
-url: "<RELEASE_URL>"
+repository-code: "https://github.com/dqswordman/fbtta-ppsn2026"
+url: "https://github.com/dqswordman/fbtta-ppsn2026/releases/tag/v1.0-ppsn2026"
