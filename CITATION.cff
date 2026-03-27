@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this PPSN 2026 submission snapshot, please cite the repository metadata and the associated paper."
-title: "Conservative Test-Time Adaptation under Open-World Contamination via Binary Correctness Feedback"
+title: "Conservative Test-Time Adaptation under Open-World Contamination with an External Binary Correctness Veto"
 version: "v1.0-ppsn2026"
 type: software
 authors:

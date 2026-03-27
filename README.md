@@ -1,10 +1,10 @@
-# Conservative Test-Time Adaptation under Open-World Contamination via Binary Correctness Feedback
+# Conservative Test-Time Adaptation under Open-World Contamination with an External Binary Correctness Veto
 
 This repository is a clean public-release snapshot for the PPSN 2026 submission on conservative test-time adaptation under contamination. The central claim is narrow and deliberate: binary correctness feedback can act as an external veto that enlarges the empirically safer operating region under contamination, but this snapshot does not claim universal superiority of binary feedback over strong 0-bit test-time adaptation on stationary corruption benchmarks.
 
 ## Paper
 
-- Paper title: `Conservative Test-Time Adaptation under Open-World Contamination via Binary Correctness Feedback`
+- Paper title: `Conservative Test-Time Adaptation under Open-World Contamination with an External Binary Correctness Veto`
 - Snapshot version: `v1.0-ppsn2026`
 - Final paper PDF in this release: [`paper/ppsn_submission_v3.pdf`](paper/ppsn_submission_v3.pdf)
 - Online supplement PDF in this release: [`paper/ppsn_online_supplement_v2.pdf`](paper/ppsn_online_supplement_v2.pdf)

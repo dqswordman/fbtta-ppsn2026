@@ -8,7 +8,7 @@ PPSN 2026 submission snapshot
 
 This release is a clean public snapshot of the code, processed paper-facing outputs, and documentation associated with the PPSN 2026 submission:
 
-`Conservative Test-Time Adaptation under Open-World Contamination via Binary Correctness Feedback`
+`Conservative Test-Time Adaptation under Open-World Contamination with an External Binary Correctness Veto`
 
 ## Included
 
